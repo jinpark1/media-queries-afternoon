@@ -1,0 +1,146 @@
+nav {
+    background-color: #212529;
+    color: #fed136;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
+.logo {
+    display: block;
+    margin: 10px 50px;
+}
+.phone {    
+    display: block;
+    margin: 10px 50px;
+}
+
+.desktop {
+    display: none;
+}
+
+.one-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.one-image {
+    width: 100%;
+}
+
+.one-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+ 
+}
+
+.one-text2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+
+}
+
+.one-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+    background-color: #fed136;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: #fed136;
+}
+
+@media (min-width: 991px) {
+    nav {
+        background-color: transparent;
+        color: #fed136;
+        display: flex;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        z-index: 9999;
+    }
+    
+    .logo {
+        display: flex;
+        margin: 20px 200px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 60px;
+    }
+
+    .phone {    
+        display: none;
+    }
+    
+    .desktop {
+        display: flex;
+        margin: 20px 20px;
+        color: white;
+        font: tahoma;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 60px;
+    }
+
+    .one-container {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px black;
+    }
+
+    .one-image {
+        width: 100%;
+    }
+    
+    .one-text {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+     
+    }
+    
+    .one-text2 {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 65px;
+    
+    }
+
+    .one-button {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+        height: 50px;
+        width: 150px;
+        background-color: #fed136;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        border-color: #fed136;
+    }
+    
+}
